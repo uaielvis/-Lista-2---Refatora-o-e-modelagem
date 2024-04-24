@@ -4,7 +4,7 @@ class ContatoManager {
     }
 
     adicionarContato(adicionavel) {
-        adicionavel.adicionar(this.contatos);
+        this.contatos.push(adicionavel);
         console.log(`Contato adicionado com sucesso.`);
     }
 

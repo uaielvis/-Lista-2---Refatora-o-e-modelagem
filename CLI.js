@@ -1,4 +1,7 @@
 const readline = require('readline');
+const Contato = require('./Contato');
+const BuscaPorNomeStrategy = require('./BuscaPorNomeStrategy');
+
 
 class CLI {
     constructor(gerenciadorContatos) {

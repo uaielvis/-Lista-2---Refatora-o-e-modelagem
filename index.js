@@ -1,6 +1,8 @@
+
 const Contato = require('./Contato');
 const ContatoManager = require('./ContatoManager');
 const CLI = require('./CLI');
+const BuscaPorNomeStrategy = require('./BuscaPorNomeStrategy'); // Adicionando a importação da estratégia de busca
 
 // Criando uma instância do gerenciador de contatos
 const gerenciadorContatos = new ContatoManager();
