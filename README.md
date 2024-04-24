@@ -1,4 +1,4 @@
-# -Lista-2---Refatora-o-e-modelagem
+# -Lista-2---Refatoracao-e-modelagem
 1. Modelagem UML do Sistema Original:
    
 Aqui está o diagrama UML do sistema original, com os padrões de projeto aplicados:
