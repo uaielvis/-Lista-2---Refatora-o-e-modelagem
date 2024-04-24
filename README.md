@@ -1,14 +1,20 @@
 # -Lista-2---Refatora-o-e-modelagem
 1. Modelagem UML do Sistema Original:
+   
 Aqui está o diagrama UML do sistema original, com os padrões de projeto aplicados:
 Neste diagrama:
+
 •	Contato: Representa um contato com nome, telefone e email.
+
 •	ContatoAdapter: Adapta a interface do Contato para ser compatível com o GerenciadorContatos.
+
 •	GerenciadorContatos: Gerencia uma lista de contatos e oferece métodos para adicionar, remover, listar e buscar contatos.
+
 •	BuscaPorNomeStrategy: Implementa a estratégia de busca por nome.
+
 ![image](https://github.com/uaielvis/-Lista-2---Refatora-o-e-modelagem/assets/86741536/60b2051b-f326-4a32-b9bc-4f1bd9ec950c)
 
-2. Aplicação de Princípios SOLID:
+3. Aplicação de Princípios SOLID:
 Vou aplicar três princípios SOLID no sistema:
 a. Princípio da Responsabilidade Única (SRP):
 •	Justificativa: Atualmente, o ContatoAdapter tem duas responsabilidades: adaptar a interface do Contato e interagir com o GerenciadorContatos. Separar essas responsabilidades tornará o código mais coeso e fácil de entender.
